@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		523FF3102A79998800411CF7 /* FlowStacks in Frameworks */ = {isa = PBXBuildFile; productRef = 52E2C8F52A7268AB0042C495 /* FlowStacks */; };
-		523FF3112A79998800411CF7 /* FlowStacks in Frameworks */ = {isa = PBXBuildFile; productRef = 52E2C8F52A7268AB0042C495 /* FlowStacks */; };
+		29E5E1002C4FEA8200913675 /* OldFlowStacks in Frameworks */ = {isa = PBXBuildFile; productRef = 29E5E0FF2C4FEA8200913675 /* OldFlowStacks */; };
+		29E5E1022C4FEA8D00913675 /* OldFlowStacks in Frameworks */ = {isa = PBXBuildFile; productRef = 29E5E1012C4FEA8D00913675 /* OldFlowStacks */; };
 		525C733527729300009CBD67 /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 525C733427729300009CBD67 /* SwiftUINavigation */; };
 		525C73372774BA6B009CBD67 /* NumberCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C73362774BA6B009CBD67 /* NumberCoordinator.swift */; };
 		525C73382774BA6B009CBD67 /* NumberCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C73362774BA6B009CBD67 /* NumberCoordinator.swift */; };
@@ -62,8 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523FF3102A79998800411CF7 /* FlowStacks in Frameworks */,
 				525C733527729300009CBD67 /* SwiftUINavigation in Frameworks */,
+				29E5E1002C4FEA8200913675 /* OldFlowStacks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				525C7344277BCDDA009CBD67 /* SwiftUINavigation in Frameworks */,
-				523FF3112A79998800411CF7 /* FlowStacks in Frameworks */,
+				29E5E1022C4FEA8D00913675 /* OldFlowStacks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +172,7 @@
 			name = "FlowStacksApp (iOS)";
 			packageProductDependencies = (
 				525C733427729300009CBD67 /* SwiftUINavigation */,
-				52E2C8F52A7268AB0042C495 /* FlowStacks */,
+				29E5E0FF2C4FEA8200913675 /* OldFlowStacks */,
 			);
 			productName = "FlowStacksApp (iOS)";
 			productReference = 5241BF3326AA1D3B002D6892 /* FlowStacksApp.app */;
@@ -193,7 +193,7 @@
 			name = "FlowStacksApp (macOS)";
 			packageProductDependencies = (
 				525C7343277BCDDA009CBD67 /* SwiftUINavigation */,
-				52E2C8F52A7268AB0042C495 /* FlowStacks */,
+				29E5E1012C4FEA8D00913675 /* OldFlowStacks */,
 			);
 			productName = "FlowStacksApp (macOS)";
 			productReference = 5241BF3926AA1D3B002D6892 /* FlowStacksApp.app */;
@@ -677,6 +677,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		29E5E0FF2C4FEA8200913675 /* OldFlowStacks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OldFlowStacks;
+		};
+		29E5E1012C4FEA8D00913675 /* OldFlowStacks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OldFlowStacks;
+		};
 		525C733427729300009CBD67 /* SwiftUINavigation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 525C733327729300009CBD67 /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
@@ -686,10 +694,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 525C733327729300009CBD67 /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
 			productName = SwiftUINavigation;
-		};
-		52E2C8F52A7268AB0042C495 /* FlowStacks */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = FlowStacks;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

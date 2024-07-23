@@ -1,6 +1,6 @@
 import Foundation
 import SwiftUI
-import FlowStacks
+import OldFlowStacks
 import SwiftUINavigation
 
 struct BindingCoordinator: View {

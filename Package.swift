@@ -3,22 +3,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "FlowStacks",
+    name: "OldFlowStacks",
     platforms: [
         .iOS(.v13), .watchOS(.v7), .macOS(.v11), .tvOS(.v13),
     ],
     products: [
         .library(
-            name: "FlowStacks",
-            targets: ["FlowStacks"]),
+            name: "OldFlowStacks",
+            targets: ["OldFlowStacks"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "FlowStacks",
+            name: "OldFlowStacks",
             dependencies: []),
         .testTarget(
             name: "FlowStacksTests",
-            dependencies: ["FlowStacks"]),
+            dependencies: ["OldFlowStacks"]),
     ]
 )

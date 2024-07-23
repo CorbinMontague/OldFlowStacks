@@ -1,4 +1,4 @@
-@testable import FlowStacks
+@testable import OldFlowStacks
 import XCTest
 
 final class CalculateStepsTests: XCTestCase {
